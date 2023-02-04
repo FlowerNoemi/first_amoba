@@ -1,0 +1,98 @@
+body {
+    background-color: #1c4b57;
+    background-image: url(./img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 40% 0%;
+    
+}
+
+
+.container {
+    background-color: #93989940;
+    max-width: 600px;
+    border: 1px solid #939899;
+}
+
+h1 {
+    color: #031318;
+    background-color: #c9cecf80;
+}
+
+
+
+#amobaBigBox {
+    margin: 10px auto;
+    width: 280px;
+    line-height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+    padding-right: 0px;
+    background-color: rgb(250, 247, 244);
+    border: 2px solid #0e718d;
+}
+
+.boxStyle {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    z-index: 0;
+}
+.xstyle {
+    font-size: 45px;
+    margin: 16px 12.5px;
+    color: green;
+}
+
+.ostyle {
+    font-size: 45px;
+    margin: 19.5px 6px;
+    color: red;
+}
+
+#winner {
+    width: 274px;
+    padding: 18px;
+    position: fixed;
+    left: calc(50% - 137px);
+    top: 200px;
+    background-color: #93cedf;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #0e718d;
+    border-radius: 10px;
+}
+
+.winnerP {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#currentStep {
+    height: 50px;
+    color: #031318;
+    font-size: 24px;
+    background-color: #c9cecf95;
+    font-weight: bold;
+}
+.regulation {
+   background-color: #c9cecf95; 
+   color: #031318;
+   
+   
+}
+.fill {
+    height: 20px;
+}
+
+.regulation p {
+    font-size: 14px;
+    margin: 3px;
+}
+ #newGame {
+    background-color: #031318;
+    border-color: #01080a;
+ }
